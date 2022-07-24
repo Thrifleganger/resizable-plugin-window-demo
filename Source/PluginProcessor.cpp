@@ -167,7 +167,7 @@ bool ResizableAppAudioProcessor::hasEditor() const
 
 juce::AudioProcessorEditor* ResizableAppAudioProcessor::createEditor()
 {
-    return new RasterAudioProcessorEditor (*this);
+    return new WrappedRasterAudioProcessorEditor (*this);
 }
 
 //==============================================================================
