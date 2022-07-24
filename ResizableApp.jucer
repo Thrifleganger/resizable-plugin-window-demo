@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ItBRpJ" name="ResizableApp" projectType="audioplug" useAppConfig="0"
+              jucerFormatVersion="1" companyName="TiltAudio">
+  <MAINGROUP id="lWIZ0R" name="ResizableApp">
+    <GROUP id="{CCF802BD-392D-C440-4129-6538C11261C4}" name="Assets">
+      <FILE id="NZShsE" name="Background.png" compile="0" resource="1" file="Assets/Background.png"/>
+      <FILE id="mADCRB" name="RasterKnob.png" compile="0" resource="1" file="Assets/RasterKnob.png"/>
+      <FILE id="tebyOr" name="VectorKnob.svg" compile="0" resource="1" file="Assets/VectorKnob.svg"/>
+    </GROUP>
+    <GROUP id="{25123E4F-9EC2-E0C5-F05C-13A1C2D29303}" name="Source">
+      <GROUP id="{C471E235-ACC6-8204-E97E-E2D90893D187}" name="Components">
+        <FILE id="FiBc5W" name="RasterKnob.h" compile="0" resource="0" file="Source/Components/RasterKnob.h"/>
+        <FILE id="MeQfqG" name="VectorKnob.h" compile="0" resource="0" file="Source/Components/VectorKnob.h"/>
+      </GROUP>
+      <FILE id="Rwfy4M" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="uoNZTl" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="h52Aar" name="RasterEditor.cpp" compile="1" resource="0"
+            file="Source/RasterEditor.cpp"/>
+      <FILE id="pSt9rH" name="RasterEditor.h" compile="0" resource="0" file="Source/RasterEditor.h"/>
+      <FILE id="gw49f9" name="VectorEditor.cpp" compile="1" resource="0"
+            file="Source/VectorEditor.cpp"/>
+      <FILE id="jQkMXh" name="VectorEditor.h" compile="0" resource="0" file="Source/VectorEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ResizableApp"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ResizableApp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../JUCE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
