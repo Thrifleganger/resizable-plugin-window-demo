@@ -2,7 +2,7 @@
 
 This is a small demo project on modifying an existing plugin project made up of raster images and fixed sized positioning and making it scalable and resizable.
 
-The demo is featured in the following YouTube video: https://youtu.be/6aRu9RKkx8E
+The demo is featured in the following YouTube video: https://www.youtube.com/watch?v=0hh1-D3gLKw
 
 ### Requirements
 
